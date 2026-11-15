@@ -4,7 +4,6 @@
 //   - localization files (chat_english.txt, tf_english.txt ...)
 //   then reapplies EVERY panel (main menu, GameUI too), not just the hud
 // No MinHook: the ConCommand's callback pointer is swapped for ours.
-// Slots / offsets read off TF2's x64 dlls 11-15 (botox-tf2 src/hacks/hud/multihud.cpp).
 #include <windows.h>
 #include <cstdarg>
 #include <cstdio>
